@@ -8,7 +8,7 @@ UI:
 *
 
 Screenshot:
-![alt text](HeadsUpCalculator/HeadsUpCalculator/HeadsUpPokerEvaluatorScreenshot.png "Heads Up Poker Evaluator Screenshot")
+![alt text](https://raw.githubusercontent.com/ustadji/HeadsUpCalculator/master/HeadsUpCalculator/HeadsUpPokerEvaluatorScreenshot.png "Heads Up Poker Evaluator Screenshot")
 
 
 
