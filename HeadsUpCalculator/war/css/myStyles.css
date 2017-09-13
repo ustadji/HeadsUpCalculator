@@ -1,0 +1,142 @@
+.myRedTextButton {
+	/* 	content : "&#x2660;
+	";
+	 */
+	color: blue !important;
+	font-family: Segoe UI Symbol !important;
+
+	/* font-size:80px !important;
+	 */
+}
+
+.cardDisplay {
+	font-size: 80px !important;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.matrixAlignment {
+	align: center;
+}
+
+.smallCard {
+	/* 	border-style: dotted solid double; */
+	/* 	border: 2px dotted red; */
+	border: 1px solid;
+	border-radius: 5px !important;
+	font-size: 20px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	width: 25px;
+	height: 50px;
+	text-align: center;
+	/* 	background-image: url("../Black Heart 48x48.png"); */
+}
+
+.smallCard:HOVER {
+	-moz-box-shadow: 0px 0px 15px #0099ff;
+	-webkit-box-shadow: 0px 0px 15px #0099ff;
+	box-shadow: 0px 0px 5px #0099ff;
+	color: red !important;
+}
+
+.selectedCard {
+	/* 	border-style: dotted solid double; */
+	/* 	border: 2px dotted red; */
+	border: 1px solid;
+	border-radius: 5px !important;
+	font-size: 60px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	width: 76px;
+	height: 125px;
+	text-align: center;
+	padding-top: 3px !important;
+	padding-bottom: 10px !important;
+	/*Transition*/
+	-webkit-transition: -webkit-box-shadow 10.5s ease-out;;
+	-moz-transition: -moz-box-shadow 10.5s ease-out;
+	-o-transition: box-shadow 10.5s ease-out;
+}
+
+.selectedCard:HOVER {
+/* 	-moz-box-shadow: 0px 0px 15px #0099ff; */
+/* 	-webkit-box-shadow: 0px 0px 15px #0099ff; */
+/* 	box-shadow: 0px 0px 15px #0099ff; */
+}
+
+.selectedCardHighlighted {
+	border: 3px solid;
+	box-shadow: 3px 3px 15px #666;
+	border-color: #C76C0C;
+/* 	border-radius: 0px !important; */
+	/* 	background: #C76C0C; */
+	/* 	color: #fff; */
+	cursor: pointer;
+	/*Opacity*/
+	zoom: 1;
+	filter: alpha(opacity = 100);
+	opacity: 1;
+/* 	padding: 0px 0px 0px 0px !important; */
+}
+
+.vs {
+	font-size: 30px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	width: 76px;
+	height: 125px;
+	text-align: center;
+	padding-top: 3px !important;
+	line-height: 140px;
+}
+
+.percentage {
+	font-size: 30px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	width: 76px;
+	height: 125px;
+	text-align: center;
+	padding-top: 3px !important;
+	line-height: 140px;
+}
+
+.highlightHigherPercentage {
+	color : green;
+}
+
+.highlightLowerPercentage {
+	color : red;
+}
+.selectedCell {
+	-moz-box-shadow: 0px 0px 15px #0099ff;
+	-webkit-box-shadow: 0px 0px 15px #0099ff;
+	box-shadow: 0px 0px 15px #0077ff;
+}
+
+.index {
+	font-size: 50%;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+	left: 0.25em;
+	top: 0.25em;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+.tileborder {
+    border-radius: 10px 10px 10px 10px!important;
+    -moz-border-radius: 10px 10px 10px 10px!important;
+    -webkit-border-radius: 10px 10px 10px 10px!important;
+    border: 2px solid #b8b6b8!important;
+    width: 4em;
+    height: 5em;
+    text-align: center;
+}

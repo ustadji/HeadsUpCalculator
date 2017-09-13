@@ -1,0 +1,59 @@
+2 high cards vs 2 undercards:
+=============================
+- first card of first hand > both cards of second hand
+and
+- second card of first hand > both cards of second hand
+
+- first card of second hand > both cards of first hand
+and
+- second card of second hand > both cards of first hand
+
+high card, low card vs 2 middle:
+===============================
+- first card of first hand > both cards of second hand
+and
+- second card of first hand < both cards of second hand
+
+or
+- first card of first hand < both cards of second hand
+and 
+- second card of first hand > both cards of second hand
+
+or other way around
+
+High card, middle card vs. Second highest, low card
+====================================================
+- first card of first hand > both cards of second hand
+and
+(- second card of first hand is between second hand)
+
+or 
+- second card of first hand > both cards of second hand
+and
+(- first card of first hand is between second hand)
+
+or other way around
+
+Between:
+=========
+- first card of first hand is between second hand)
+or
+- second card of first hand is between second hand)
+
+Second Highest card:
+=====================
+Figure out how to do that!!
+
+High card, same card vs. Same card, low card
+=============================================
+- first card of first hand > both cards of second hand
+and secondcard of first hand pairs with one card of second hand
+ - second hand has lowest card
+ 
+High card, high kicker vs. same high card pair, low kicker
+==========================================================
+- first hand has highest card and it pairs with one card of second
+and second card is higher than non pair 
+
+
+

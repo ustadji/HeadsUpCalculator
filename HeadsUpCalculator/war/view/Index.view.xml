@@ -1,0 +1,54 @@
+<mvc:View controllerName="poker.controller.Index" xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core"
+  displayBlock="true" xmlns:html="http://www.w3.org/1999/xhtml">
+  <App>
+    <pages>
+    <!--Page: container control that holds one whole screen of an application.  -->
+      <Page title="Heads Up Poker Evaluator">
+        <content>
+          <!-- The VBox control builds the container for a vertical flexible box layout. VBox is a convenience control, as it is just a specialized FlexBox control. -->
+          <VBox alignItems="Center" justifyContent="Center">
+            <items>
+              <!-- The panel is a container for grouping and displaying information -->
+              <Panel id="allCardsPanel" />
+              <Panel id="myButtonPanel">
+                <content>
+                  <Button text="Evaluate" press="onEvaluate"></Button>
+                  <Button text="Clear" press="onClear"></Button>
+                </content>
+              </Panel>
+              <Panel id="selectedCardsPanel" />
+              <MessageStrip id="evaluationMessageStrip"
+                class="sapUiSmallMarginBottom" type="Warning" visible="false"></MessageStrip>
+            </items>
+          </VBox>
+
+          <!--
+          <l:Grid defaultSpan="L4 M6 S6" class="sapUiSmallMarginTop"
+            content="{cards>/results}">
+            <l:content>
+              <FlexBox class="panelBorder" id="test">
+                <layoutData>
+                  <l:GridData span="L6 M12 S12" />
+                </layoutData>
+                <items>
+                  <Panel content="{cards>colors}">
+                    <content>
+                      <CustomTile class="tileborder">
+                        <content>
+                          <Label text="{cards>name} of {cards>color}" />
+                        </content>
+                      </CustomTile>
+                    </content>
+                  </Panel>
+                </items>
+              </FlexBox>
+            </l:content>
+          </l:Grid>
+           -->
+
+        </content>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>

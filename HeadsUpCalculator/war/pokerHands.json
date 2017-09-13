@@ -1,0 +1,24 @@
+{
+  "Hands": [
+	{
+	  "Card": "A",
+	  "Suit": "&hearts;"
+	},
+	{
+	  "Card": "K",
+	  "Suit": "&hearts;"
+	},
+	{
+	  "Card": "Q",
+	  "Suit": "&hearts;"
+	},
+	{
+	  "Card": "J",
+	  "Suit": "&hearts;"
+	},
+	{
+	  "Card": "10",
+	  "Suit": "&hearts;"
+	}
+  ]
+}
