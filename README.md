@@ -1,5 +1,5 @@
 # HeadsUpCalculator
-Simple app that calculates the pre-flop percentages in a Texas Holdem heads up hand
+Simple app that calculates the pre-flop percentages in a Texas Hold-em heads up hand
 
 ### Here is the technology stack used:
 UI:
