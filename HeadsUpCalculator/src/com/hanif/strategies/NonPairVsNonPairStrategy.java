@@ -84,7 +84,7 @@ public class NonPairVsNonPairStrategy implements HandEvaluationStrategy {
 			evaluation.setFirstHandPercentage(57);
 			evaluation.setSecondHandPercentage(43);
 			evaluation.setResult(
-					"In this match-up the high card gives it the edge. But it’s only a marginal winner, approximately 57% to the hand containing the high card.");
+					"In this match-up the high card gives it the edge. But itï¿½s only a marginal winner, approximately 57% to the hand containing the high card.");
 			return evaluation;
 		} else if ((this.firstCardOfSecondHandIsHigherThanFirstHand()
 				&& this.secondCardOfSecondHandIsLowerThanFirstHand())
@@ -93,7 +93,7 @@ public class NonPairVsNonPairStrategy implements HandEvaluationStrategy {
 			evaluation.setFirstHandPercentage(43);
 			evaluation.setSecondHandPercentage(57);
 			evaluation.setResult(
-					"In this match-up the high card gives it the edge. But it’s only a marginal winner, approximately 57% to the hand containing the high card.");
+					"In this match-up the high card gives it the edge. But itï¿½s only a marginal winner, approximately 57% to the hand containing the high card.");
 			return evaluation;
 		}
 
@@ -310,20 +310,20 @@ public class NonPairVsNonPairStrategy implements HandEvaluationStrategy {
 		return false;
 	}
 
-	private boolean OneCardOfFirstHandIsLowerThanSecondHand() {
-		if ((firstCardValue < thirdCardValue) && (firstCardValue < fourthCardValue)) {
-			if ((secondCardValue > thirdCardValue) && (secondCardValue > fourthCardValue)) {
-				return true;
-			}
-		}
-		if ((firstCardValue > thirdCardValue) && (firstCardValue > fourthCardValue)) {
-			if ((secondCardValue < thirdCardValue) && (secondCardValue < fourthCardValue)) {
-				return true;
-			}
-		}
-
-		return false;
-	}
+//	private boolean OneCardOfFirstHandIsLowerThanSecondHand() {
+//		if ((firstCardValue < thirdCardValue) && (firstCardValue < fourthCardValue)) {
+//			if ((secondCardValue > thirdCardValue) && (secondCardValue > fourthCardValue)) {
+//				return true;
+//			}
+//		}
+//		if ((firstCardValue > thirdCardValue) && (firstCardValue > fourthCardValue)) {
+//			if ((secondCardValue < thirdCardValue) && (secondCardValue < fourthCardValue)) {
+//				return true;
+//			}
+//		}
+//
+//		return false;
+//	}
 
 	private boolean firstCardOfFirstHandIsHigherThanSecondHand() {
 		if ((firstCardValue > thirdCardValue) && (firstCardValue > fourthCardValue)) {
