@@ -72,7 +72,7 @@ public class PairVsNonPairStrategy implements HandEvaluationStrategy {
 				} else {
 					evaluation.setFirstHandPercentage(55);
 					evaluation.setSecondHandPercentage(45);
-					evaluation.setResult("This is the classic coin flip hand that you’ll see many times late in tournaments with one player being all-in. The term coin flip indicates an even money situation which is really a 55 to 45 percent situation, as the pair is a slight favourite.");
+					evaluation.setResult("This is the classic coin flip hand that you'll see many times late in tournaments with one player being all-in. The term coin flip indicates an even money situation which is really a 55 to 45 percent situation, as the pair is a slight favourite.");
 				}
 			} else {
 				if (nonPairIsSuited) {
@@ -82,7 +82,7 @@ public class PairVsNonPairStrategy implements HandEvaluationStrategy {
 				} else {
 					evaluation.setFirstHandPercentage(45);
 					evaluation.setSecondHandPercentage(55);
-					evaluation.setResult("This is the classic coin flip hand that you’ll see many times late in tournaments with one player being all-in. The term coin flip indicates an even money situation which is really a 55 to 45 percent situation, as the pair is a slight favourite.");
+					evaluation.setResult("This is the classic coin flip hand that you'll see many times late in tournaments with one player being all-in. The term coin flip indicates an even money situation which is really a 55 to 45 percent situation, as the pair is a slight favourite.");
 				}
 			}
 
@@ -149,7 +149,7 @@ public class PairVsNonPairStrategy implements HandEvaluationStrategy {
 				evaluation.setFirstHandPercentage(10);
 				evaluation.setSecondHandPercentage(90);
 			}
-			evaluation.setResult("The non pair has to hit its undercard twice or make a straight or flush to prevail. The pair is better than a 90 percent favourite or slightly better than 10-to-1 odds. I’ll take those odds anytime.");
+			evaluation.setResult("The non pair has to hit its undercard twice or make a straight or flush to prevail. The pair is better than a 90 percent favourite or slightly better than 10-to-1 odds. I'll take those odds anytime.");
 		}
 
 		return evaluation;

@@ -29,7 +29,7 @@ public class PairVsPairStrategy implements HandEvaluationStrategy {
 	@Override
 	public Evaluation evaluateHand() {
 		Evaluation evaluation = new Evaluation();
-		evaluation.setResult("The higher pair is an 80 percent favourite. We can get very technical and highlight the fact that if the underpair didn’t have any clean suits and/or the maximum number of straight outs then the high pair’s equity would increases by one or two percent.");
+		evaluation.setResult("The higher pair is an 80 percent favourite. We can get very technical and highlight the fact that if the underpair didn't have any clean suits and/or the maximum number of straight outs then the high pair's equity would increases by one or two percent.");
 		if (firstCardValue > thirdCardValue) {
 			evaluation.setFirstHandPercentage(80);
 			evaluation.setSecondHandPercentage(20);
